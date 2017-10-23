@@ -66,42 +66,43 @@ display: flex;
 .container2,.container3,.container4{
      width: 40px;  
             height: 20px;
-            background: grey;
+            background:black;
             margin: auto;   
 }
 .container2{
      
-            box-shadow: 120px  0px grey,
+            box-shadow:  240px 0px grey,
+     180px 0px grey,
+                120px  0px grey,
+                60px 0px black, 
+                 -60px 0px black,
+                    -120px 0px black,
+                -180px 0px black, 
+                 -240px 0px black,
+                 -300px 0px black
+                 ;  
+}
+.container3{ 
+      box-shadow:240px 0px grey,
+     180px 0px grey, 
+          120px  0px grey,
                 60px 0px grey, 
                  -60px 0px black,
                     -120px 0px black,
                 -180px 0px black, 
                  -240px 0px black,
-                 -300px 0px black,
-                -360px 0px black,
-                -417px 0px black  ;  
+                 -300px 0px black   ;  
 }
-.container3{ 
-      box-shadow: 120px  0px grey,
+.container4{
+      box-shadow: 240px 0px grey,
+     180px 0px grey,
+          120px  0px grey,
                 60px 0px grey, 
-                 -60px 0px grey,
+                 -60px 0px black,
                     -120px 0px black,
                 -180px 0px black, 
                  -240px 0px black,
-                 -300px 0px black,
-                -360px 0px black,
-                -417px 0px black  ;  
-}
-.container4{
-      box-shadow: 120px  0px grey,
-                60px 0px grey, 
-                 -60px 0px grey,
-                    -120px 0px grey,
-                -180px 0px grey, 
-                 -240px 0px black,
-                 -300px 0px black,
-                -360px 0px black,
-                -417px 0px black ;  
+                 -300px 0px black ;  
 }
 
 @media all and (max-width: 900px){
