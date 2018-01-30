@@ -224,6 +224,9 @@ display: flex;
 
 @media all and (max-width: 480px){
     
+    .celu{
+        display: none;
+    }
    
     .container2,.container3,.container4{
      width: 20px;  
