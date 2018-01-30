@@ -3,14 +3,32 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
 
 body{
-    margin: 50px 138px;
+     border-radius: 15px;
+    margin: 30px 28px;
+      box-shadow: 0px 0px 40px rgba(213,0,0 ,1), 0px 0px 80px rgba(256,256,256 ,1);
+    
+   -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;   
+     
 }
-
+h2, h4{
+    text-align: center
+}
+ h4{
+    font-size:22px;
+     margin: 7px 0;
+}
 .arriba{
 display: flex;
-justify-content: space-between
-}
-  
+justify-content: space-between;
+    
+    margin-bottom: 15px;
+  padding: 7px;
+    
+    
+    
+} 
 .for-ul{
     list-style: none;
     
@@ -27,13 +45,24 @@ color: steelblue;
     margin-left: 18px;
 }
 /**/
-
+ 
+.aside{
+    text-align: center;
+    padding: 10px;
+     
+}
+ 
 .main{
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+    justify-content: space-around;
+        
 }
 .article{
-    margin: 0 38px;
+     border-radius: 10px;
+    border:8px double black;
+    
+    margin-bottom: 10px;
+    padding: 5px;
 }
 a{
     text-decoration: none;
@@ -79,7 +108,7 @@ display: flex;
      
             box-shadow:  240px 0px grey,
      180px 0px grey,
-                120px  0px grey,
+                120px  0px black,
                 60px 0px black, 
                  -60px 0px black,
                     -120px 0px black,
