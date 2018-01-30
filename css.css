@@ -12,22 +12,28 @@ body{
     box-sizing: border-box;   
      
 }
+
+/*titulos*/ /*titulos*/ /*titulos*/ /*titulos*/
 h2, h4{
-    text-align: center
+    text-align: center;
+        text-shadow: 5px 2px 3px grey;
+    margin-bottom: 7px;
 }
  h4{
     font-size:22px;
-     margin: 7px 0;
+     margin: 18px 0 18px 0;;
 }
+ .titulos{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+     letter-spacing: 1.2px; 
+}
+/*FIN titulos*/ /*FIN titulos*/ /*FIN titulos*/ /*FIN titulos*/ /*FIN titulos*/
 .arriba{
 display: flex;
 justify-content: space-between;
-    
-    margin-bottom: 15px;
-  padding: 7px;
-    
-    
-    
+      
 } 
 .for-ul{
     list-style: none;
@@ -44,36 +50,44 @@ color: steelblue;
     list-style: disc;
     margin-left: 18px;
 }
-/**/
+/*MAIN*/
  
 .aside{
     text-align: center;
-    padding: 10px;
-     
+    padding: 10px;     
 }
- 
+.aside img {
+      box-shadow: 4px 4px 10px;
+    margin-bottom: 5px;
+}
 .main{
      display: flex;
     justify-content: space-around;
-        
+       margin-top: 7px; 
 }
 .article{
      border-radius: 10px;
     border:8px double black;
-    
-    margin-bottom: 10px;
-    padding: 5px;
+     padding: 5px;
 }
 a{
     text-decoration: none;
+    color: blue;
 }
-.titulos{
-    border-bottom: 1px solid grey;
-    font-family: 'Roboto', sans-serif;
-     letter-spacing: 1.2px;
-}
+
 .cont-img{
     display: flex;
+    padding: 5px 35px 0 0;
+}
+.cont-img img{
+     border-radius: 30%;
+    box-shadow: 4px 4px 10px;
+}
+.cont-img p{
+   color: black;
+    margin-right: 5px;
+    margin: 20px 15px 0 0;
+    
 }
 /*Education*/
 .edu2{
@@ -92,6 +106,7 @@ display: flex;
     justify-content: space-between;
 }
 /*SKILLS*/
+  @media (min-width: 921px) and (max-width: 1600px){
 .container2,.container3{
      width: 40px;  
             height: 20px;
@@ -139,8 +154,77 @@ display: flex;
                  -240px 0px black,
                  -300px 0px black ;  
 }
+}
 
-@media all and (max-width: 900px){
+
+/*------------------------------------------------*/
+  @media (max-width: 1192px){
+       body{
+        box-shadow: 0 0 0 white;
+    }
+      
+       
+      .article{
+          border: 0 solid white;
+      }
+      .Skills{
+          margin: 0 0 0 50px;
+      }
+      
+      .container2{
+     width: 30px;  
+            height: 15px;
+            background: black;
+            margin: auto ;   
+}
+      .container3,.container4{
+     width: 30px;  
+            height: 15px;
+            background: grey;
+            margin: auto ;   
+}
+  .container2{
+     
+            box-shadow: 80px 0px grey,
+                40px 0px grey, 
+                -40px 0px black,
+                    -80px 0px black,
+                -120px 0px black, 
+                 -160px 0px black,
+                 -200px 0px black,
+                -240px 0px black,
+                -280px 0px black  ;  
+}  
+      .container3{
+            box-shadow: 80px 0px grey,
+                40px 0px grey, 
+                -40px 0px grey,
+                    -80px 0px black,
+                -120px 0px black, 
+                 -160px 0px black,
+                 -200px 0px black,
+                -240px 0px black,
+                -280px 0px black  ;  
+      }   
+      
+      .container4{
+            box-shadow: 80px 0px grey,
+                40px 0px grey, 
+                -40px 0px grey,
+                    -80px 0px grey,
+                -120px 0px black, 
+                 -160px 0px black,
+                 -200px 0px black,
+                -240px 0px black,
+                -280px 0px black  ;  
+      }
+    
+}
+
+
+@media all and (max-width: 480px){
+    
+   
     .container2,.container3,.container4{
      width: 20px;  
             height: 15px;
@@ -160,7 +244,7 @@ display: flex;
                 -210px 0px black  ;  
 }
     .container3{ 
-      box-shadow:60px  0px grey,
+      box-shadow: 60px  0px grey,
                 30px 0px grey, 
                   -30px 0px grey,
                     -60px 0px black,
