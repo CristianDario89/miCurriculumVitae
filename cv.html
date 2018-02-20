@@ -8,16 +8,18 @@
         
         <script src="JQuery/jquery-3.2.1.min.js"></script> 
     <script src="actions.js"></script> 
+   
 </head>
 <body>
+  
    <!--encabezado-->
     <div class="arriba">
-        <ul class="for-ul" >
+        <ul class="for-u" >
             <li class="first-li">Cristian Dario Romero</li>
             <li>Buenos Aires, Argentina</li>
             <li class="third-li">ccristiandarioromero@gmail.com</li>
         </ul>
-         <div class="cont-img"><p>Edad: 30 años<br>Estado civil: Soltero<br>Hijos: no</p><img src="img/a.jpg" alt="" width="130" height="130">
+         <div class="cont-img"><p>Edad: 30 años<br>Estado civil: Soltero<br>Hijos: no</p><img src="img/a.jpg" alt="" width="130" height="130" class="tra">
          </div>
     </div>
      <!--FIIN encabezado BACHILLER, MODALIDAD PRODUCCION DE BIENES Y SERVICIOS.-->
@@ -25,7 +27,7 @@
      <section class="main">
           
             <div class="aside celu">
-                  <h2>Apps con base de datos</h2> <hr>
+                  <h2 class="celu3">Apps con base de datos</h2> <hr>
                        <div><h4>Control de Asistencias</h4>
                          <div><img src="img/asis2.png" alt="" width="220" height="230"></div>
                            <a href="https://github.com/CristianDario89/AttendanceRegister-plusCRUD" class="celu">AttendanceRegister-plusCRUD</a>
@@ -86,7 +88,7 @@
 
                         <!-- SKILLS-->
                          <h2 class="titulos">Habilidades</h2> 
-     <div class="Skills"> 
+         <div class="Skills"> 
         
 
           <h3>Maquetado web</h3>                   
@@ -109,17 +111,18 @@
                            <!--INGLES-->
                             <h2 class="titulos">Certificados de Inglés</h2> 
                              <div class="ingles">
-                   <img src="img/c1.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
+                           <img src="img/c1.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
 
-                       <img src="img/c3.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
-                         <img src="img/c2.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
-                 </div>   
+                               <img src="img/c3.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
+                                 <img src="img/c2.jpg" alt="" width="150" height="120" class="c1" style="cursor: pointer">
+                 </div>
+                 
                     <!--FIIN INGLES-->
                   
             </div>
            
-            <div class="aside">
-                  <h2>Trabajos graficos (sitios web) </h2><hr>
+            <div class="aside celu2">
+                  <h2 class="celu4">Trabajos graficos (sitios web) </h2><hr>
                    <div><h4>Sitio web para Biblioteca Rusa</h4>
                      <div><img src="img/c.png" alt="" width="220" height="230"></div>
                      <a href="https://cristiandario89.github.io/RussianLibrary2.0/" class="celu">https://cristiandario89.github.io/<br>RussianLibrary2.0/</a>
@@ -141,5 +144,86 @@
             </div>
         
      </section>
+     
+       
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     
+     <script>
+    window.sr =ScrollReveal();
+        
+        /*   sr.reveal('.showcase-left', {
+             
+             duration:2000,
+             origin: 'top',
+               distance: '300px'
+         });
+           sr.reveal('.showcase-right', {
+             
+             duration:2000,
+             origin: 'origin',
+               distance: '300px'
+         });
+      sr.reveal('.showcase-btn', {
+             
+             duration:2000,
+          delay: 2000,
+             origin: 'bottom',
+              
+         });
+           sr.reveal('#testimonial div', {
+              duration:2000,
+             origin: 'bottom' 
+           });*/
+           sr.reveal('.for-u', {
+             duration:1000,
+             origin: 'left',
+               distance: '300px' 
+               
+         });
+         
+          sr.reveal('.celu', {
+              delay:4000,
+             duration:2000,
+             origin: 'left',
+               distance: '300px' 
+               
+         });
+           sr.reveal('.cont-img', {
+             duration:3000,
+             origin: 'right',
+               distance: '300px' 
+               
+         });
+        
+           sr.reveal('.celu2', {
+              delay:7000,
+             duration:2000,
+             origin: 'right',
+               distance: '300px' 
+               
+         });
+         
+   
+    </script>
+
+       <script>
+    $(function() {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+     
+     
 </body>
 </html>

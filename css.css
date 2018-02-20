@@ -79,10 +79,11 @@ a{
     display: flex;
     padding: 5px 35px 0 0;
 }
-.cont-img img{
+.cont-img img {
      border-radius: 30%;
     box-shadow: 4px 4px 10px;
 }
+
 .cont-img p{
    color: black;
     margin-right: 5px;
