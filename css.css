@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
@@ -302,4 +303,154 @@ display: flex;
 /*UNTREF*/
 .untref{
     display: flex;
+=======
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+
+body{
+    margin: 50px 138px;
+}
+
+.arriba{
+display: flex;
+justify-content: space-between
+}
+  
+.for-ul{
+    list-style: none;
+    
+}
+.first-li{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+.third-li{
+color: steelblue;
+    list-style: disc;
+    margin-left: 18px;
+}
+/**/
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    margin: 0 38px;
+}
+a{
+    text-decoration: none;
+}
+.titulos{
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+     letter-spacing: 1.2px;
+}
+.cont-img{
+    display: flex;
+}
+/*Education*/
+.edu2{
+display: flex;
+    
+}
+
+.objetivo{
+   font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+/*Ingles*/
+.ingles{
+    display: flex;
+    justify-content: space-between;
+}
+/*SKILLS*/
+.container2,.container3,.container4{
+     width: 40px;  
+            height: 20px;
+            background: grey;
+            margin: auto;   
+}
+.container2{
+     
+            box-shadow: 120px  0px grey,
+                60px 0px grey, 
+                 -60px 0px black,
+                    -120px 0px black,
+                -180px 0px black, 
+                 -240px 0px black,
+                 -300px 0px black,
+                -360px 0px black,
+                -417px 0px black  ;  
+}
+.container3{ 
+      box-shadow: 120px  0px grey,
+                60px 0px grey, 
+                 -60px 0px grey,
+                    -120px 0px black,
+                -180px 0px black, 
+                 -240px 0px black,
+                 -300px 0px black,
+                -360px 0px black,
+                -417px 0px black  ;  
+}
+.container4{
+      box-shadow: 120px  0px grey,
+                60px 0px grey, 
+                 -60px 0px grey,
+                    -120px 0px grey,
+                -180px 0px grey, 
+                 -240px 0px black,
+                 -300px 0px black,
+                -360px 0px black,
+                -417px 0px black ;  
+}
+
+@media all and (max-width: 900px){
+    .container2,.container3,.container4{
+     width: 20px;  
+            height: 15px;
+            background: grey;
+            margin: auto ;   
+}
+    .container2{
+     
+            box-shadow: 60px  0px grey,
+                30px 0px grey, 
+                 -30px 0px black,
+                    -60px 0px black,
+                -90px 0px black, 
+                 -120px 0px black,
+                 -150px 0px black,
+                -180px 0px black,
+                -210px 0px black  ;  
+}
+    .container3{ 
+      box-shadow:60px  0px grey,
+                30px 0px grey, 
+                  -30px 0px grey,
+                    -60px 0px black,
+                -90px 0px black, 
+                 -120px 0px black,
+                 -150px 0px black,
+                -180px 0px black,
+                -210px 0px black  ; 
+}
+.container4{
+      box-shadow: 60px  0px grey,
+                30px 0px grey, 
+                -30px 0px grey,
+                    -60px 0px grey,
+                 -90px 0px grey, 
+                   -120px 0px black,
+                 -150px 0px black,
+                -180px 0px black,
+                -210px 0px black  ; 
+}
+
+>>>>>>> 0d41c125e582327b4d8ce71152b3d8282d1bbc3e
 }
