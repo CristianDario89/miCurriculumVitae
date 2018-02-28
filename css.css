@@ -3,13 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
 
 body{
+    margin: 0;
      border-radius: 15px;
     margin: 30px 28px;
       box-shadow: 0px 0px 40px rgba(213,0,0 ,1), 0px 0px 80px rgba(256,256,256 ,1);
     
    -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    padding-bottom: 5px;
      
 }
 
@@ -163,7 +165,12 @@ display: flex;
        body{
         box-shadow: 0 0 0 white;
     }
-      
+        .main{
+   flex-direction: column;
+}
+      .celu{
+          order: 1;
+      }
        
       .article{
           border: 0 solid white;
@@ -224,11 +231,30 @@ display: flex;
 
 
 @media all and (max-width: 480px){
+    .main{
+   flex-direction: column;
+}
+    .arriba{
+ flex-direction: column;     
+}
+    .ingles{
+   flex-direction: column; 
+        margin-left: 65px;
+}
     
-    .celu{
-        display: none;
+  .celu{
+          order: 1;
+      }
+    .third-li{
+ margin-left: 0px;
+        margin-bottom: 15px;
+      
+} 
+    .for-u{
+        box-shadow: 3px 3px 3px grey, -3px -3px 3px grey;
     }
-   
+    
+    
     .container2,.container3,.container4{
      width: 20px;  
             height: 15px;
@@ -270,4 +296,10 @@ display: flex;
                 -210px 0px black  ; 
 }
 
+}
+
+
+/*UNTREF*/
+.untref{
+    display: flex;
 }
